@@ -1,0 +1,43 @@
+/* GRID AREA */
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+    "encabezado encabezado encabezado encabezado encabezado"
+    "nav nav nav nav nav"
+    "seccionA seccionA seccionA seccionA seccionB"
+    "aside aside aside aside aside"
+    "footer footer footer footer footer"
+    ;
+}
+
+
+header {
+    background-color: azure;
+    grid-area: encabezado;
+}
+
+nav {
+    background-color: rosybrown;
+    grid-area: nav;
+}
+
+.seccionA {
+    background-color: bisque;
+    grid-area: seccionA;
+}
+
+.seccionB {
+    background-color: aquamarine;
+    grid-area: seccionB;
+}
+
+aside {
+    grid-area: aside;
+    background-color: blueviolet;
+}
+
+footer {
+    grid-area: footer;
+    background-color: brown;
+}
